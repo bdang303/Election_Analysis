@@ -4,7 +4,7 @@
 A dataset of votes from a U.S. Congressional election in Colorado was provided that contained ballots for candidate votes in multiple counties. Using a python script to conduct an automated analysis, we were able to store the data elements from a CSV file using lists & dictionaries. The script allowed us to access the data and perform various calculations to determine the results of the election. In addition to the results, the script also summarized and reported out details via a text file.
 
 ## Election Audit Results
-• In this election, there were a total of 369,711 votes cast
+• In this election, there were a total of 369,711 votes cast <br />
 • There were 3 Counties where votes were tabulated, Denver had the majority of votes at 306,055 (82.8%), following by Jefferson County with 38,855 votes (10.5%), and Arapahoe County with 24,801 (6.7%). To calculate the number of votes, a “For” loop was created to retrieve the county votes for each county:
 
     for county_name in county_votes:
@@ -17,8 +17,8 @@ Using the following formula, we calculated the percentage of results:
             f"{county_name}: {countyvote_percentage:.1f}% ({cvotes:,})\n")
 
 
-• Per the breakdown above, Denver had the largest County turnout in this election. 
-• 3 Candidates were in the running in this election. Diana DeGette had 272,892 votes, followed by Charles Casper Stockham with 85,213 votes, and Raymon Anthony Doane with 11,606 votes.
+• Per the breakdown above, Denver had the largest County turnout in this election. <br />
+• 3 Candidates were in the running in this election. Diana DeGette had 272,892 votes, followed by Charles Casper Stockham with 85,213 votes, and Raymon Anthony Doane with 11,606 votes. <br />
 • Diana DeGette was the candidate who received the most votes with 272,892 votes which was 73.8% of the total votes and therefore the winner of the election.
 
 ![Election Summary]( https://github.com/bdang303/Election_Analysis/blob/main/Resources/Election_Summary.png)
